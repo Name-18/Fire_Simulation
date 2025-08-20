@@ -1,0 +1,5 @@
+Flask>=3.0.0
+flask-cors>=4.0.0
+# Optional geospatial / heavy deps (only needed if you enable raster logic)
+rasterio>=1.3.9; platform_system != "Windows" or python_version >= "3.10"
+pyproj>=3.5.0
