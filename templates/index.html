@@ -175,7 +175,7 @@
   if (!isSimulating || !ignitionPoint) return;
 
   try {
-    const res = await fetch("/simulate", {
+    const res = await fetch("https://fire-simulation.onrender.com/simulate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
